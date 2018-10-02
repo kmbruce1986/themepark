@@ -7,4 +7,12 @@ public abstract class Ride {
         this.price = price;
         this.minimumHeight = minimumHeight;
     }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public double getMinimumHeight() {
+        return minimumHeight;
+    }
 }
