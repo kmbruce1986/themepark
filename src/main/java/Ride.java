@@ -15,4 +15,8 @@ public abstract class Ride {
     public double getMinimumHeight() {
         return minimumHeight;
     }
+
+//    public boolean checkHeight(){
+////
+////    }
 }
