@@ -16,7 +16,7 @@ public abstract class Ride {
         return minimumHeight;
     }
 
-//    public boolean checkHeight(){
-////
-////    }
+//    public boolean checkHeight(Customer customer){
+//        if (customer.this.minimumHeight)
+//    }
 }
