@@ -21,4 +21,8 @@ public class Customer {
     public double getMoney() {
         return money;
     }
+
+    public void payMoney(double money) {
+        this.money -= money;
+    }
 }

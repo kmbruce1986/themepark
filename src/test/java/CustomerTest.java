@@ -25,6 +25,12 @@ public class CustomerTest {
     }
 
     @Test
+    public void canSetMoney() {
+        customer1.payMoney(5.00);
+        assertEquals(30.00, customer1.getMoney(), 0.01);
+    }
+
+    @Test
     public void canGetMoney() {
         assertEquals(35.00, customer1.getMoney(), 0.01);
     }
